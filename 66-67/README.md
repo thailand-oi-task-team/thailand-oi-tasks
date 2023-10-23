@@ -4,7 +4,7 @@
 
 ### วันที่ 1
 
-- [](/66-67/o66_oct_c1_rescue.pdf) และ [](/66-67/o66_oct_c1_rescue_public.zip)
-- [](/66-67/o66_oct_c1_homework.pdf) และ [](/66-67/o66_oct_c1_homework_public.zip)
-- [](/66-67/o66_oct_c1_snow.pdf) และ [](/66-67/o66_oct_c1_snow_public.zip)
-- [](/66-67/o66_oct_c1_volunteers.pdf) และ [](/66-67/o66_oct_c1_volunteers_public.zip)
+- [rescue (pdf)](/66-67/o66_oct_c1_rescue.pdf) และ [rescue (zip)](/66-67/o66_oct_c1_rescue_public.zip)
+- [homework (pdf)](/66-67/o66_oct_c1_homework.pdf) และ [homework (zip)](/66-67/o66_oct_c1_homework_public.zip)
+- [snow (pdf)](/66-67/o66_oct_c1_snow.pdf) และ [snow (zip)](/66-67/o66_oct_c1_snow_public.zip)
+- [volunteers (pdf)](/66-67/o66_oct_c1_volunteers.pdf) และ [volunteers (zip)](/66-67/o66_oct_c1_volunteers_public.zip)
