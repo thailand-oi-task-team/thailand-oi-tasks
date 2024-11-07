@@ -46,7 +46,7 @@ for d in dirs:
       camp_problem[camp] = dict()
     if day not in camp_problem[camp]:
       camp_problem[camp][day] = list()
-    camp_problem[camp][day].append((p.split('_')[-1].split('.')[0], p + "_public" in public_zips))
+    camp_problem[camp][day].append((p, p + "_public" in public_zips))
   camp_list = list(camps)
   camp_list_sorted = sorted(camp_list, key=lambda x: months_to_int[x])
 
@@ -58,8 +58,8 @@ for d in dirs:
       for day in sorted(camp_problem[camp].keys()):
         f.write(f'\n### วันที่ {day}\n\n')
         for p in sorted(camp_problem[camp][day]):
-          f.write(f'- [{p[0]} (pdf)]({base_github_url}/{d}/{p[0]}.pdf)')
+          f.write(f'- [{p[0].split('_')[-1].split('.')[0]} (pdf)]({base_github_url}/{d}/{p[0]}.pdf)')
           if p[1]:
-            f.write(f' และ [{p[0]} (zip)]({base_github_url}/{d}/{p[0]}_public.zip)\n')
+            f.write(f' และ [{p[0].split('_')[-1].split('.')[0]} (zip)]({base_github_url}/{d}/{p[0]}_public.zip)\n')
           else:
             f.write('\n')
