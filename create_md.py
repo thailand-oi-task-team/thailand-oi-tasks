@@ -58,8 +58,8 @@ for d in dirs:
       for day in sorted(camp_problem[camp].keys()):
         f.write(f'\n### วันที่ {day}\n\n')
         for p in sorted(camp_problem[camp][day]):
-          f.write(f'- [{p[0].split('_')[-1].split('.')[0]} (pdf)]({base_github_url}/{d}/{p[0]}.pdf)')
+          f.write(f"- [{p[0].split('_')[-1].split('.')[0]} (pdf)]({base_github_url}/{d}/{p[0]}.pdf)")
           if p[1]:
-            f.write(f' และ [{p[0].split('_')[-1].split('.')[0]} (zip)]({base_github_url}/{d}/{p[0]}_public.zip)\n')
+            f.write(f" และ [{p[0].split('_')[-1].split('.')[0]} (zip)]({base_github_url}/{d}/{p[0]}_public.zip)\n")
           else:
             f.write('\n')
