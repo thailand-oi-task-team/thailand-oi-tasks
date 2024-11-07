@@ -50,7 +50,7 @@ for d in dirs:
   camp_list = list(camps)
   camp_list_sorted = sorted(camp_list, key=lambda x: months_to_int[x])
 
-  with open(f"{d}/README2.md", "w") as f:
+  with open(f"{d}/README.md", "w") as f:
     f.write(f"# ปี 25{d.split('-')[0]} - 25{d.split('-')[1]}\n")
     for camp in camp_list_sorted:
       year = d.split('-')[0 if months_to_int[camp] <= 3 else 1]
